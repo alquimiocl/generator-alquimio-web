@@ -1,0 +1,51 @@
+{
+  "name": "Scaffolding",
+  "title": "Scaffolding Examplep",
+  "angular": {
+    "app": "App.Scaffolding"
+  },
+  "version": "1.0.0",
+  "port": 3000,
+  "assets": {
+    "script": [
+      "controller/*.min",
+      "services/*.min",
+      "directives/*.min",
+      "app"
+    ],
+    "style": [
+      "style"
+    ],
+    "mv": ["fonts/*", "files/*", "*.json", "*.ico"]
+  },
+  "ie": {
+    "script": [
+    ],
+    "style": [
+    ],
+    "mv": [
+    ]
+  },
+  "vendor": {
+    "script": [
+      "angular/angular.min",
+      "jquery/dist/jquery.min"
+    ],
+    "style": [
+    ],
+    "mv": [
+      "angular/angular.min.js.map"
+    ]
+  },
+  "image": {
+    "progressive": true
+  },
+  "coffee": {
+    "bare": true,
+    "mangle": false
+  },
+  "inject": {
+    "removeTags": true,
+    "relative": true
+  }
+}
