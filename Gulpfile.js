@@ -218,8 +218,7 @@ gulp.task('sass', function (cb) {
 
 gulp.task('test', function (done) {
 	new karma({
-		configFile: __dirname + '/karma.conf.js',
-		singleRun: false
+		configFile: __dirname + '/karma.conf.js'
 	}, done).start();
 });
 
